@@ -1,0 +1,11 @@
+.image-link {
+    display: flex;
+    justify-content: center;
+    padding: 6% 0;
+}
+.image-logo {
+    width: 70%;
+}
+.links {
+    text-decoration: none;
+}

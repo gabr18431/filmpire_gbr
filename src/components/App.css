@@ -1,0 +1,41 @@
+body {
+    overflow-y: auto !important;
+}
+body.dark-mode .css-bf9wz-MuiButtonBase-root-MuiPaginationItem-root {
+    color: #9f9f9f ;
+}
+body.dark-mode .css-1160xiw-MuiPaper-root-MuiDrawer-paper {
+    background-color: #020c1b !important;
+}
+body.dark-mode .css-1l8j5k8 {
+    background-color: #020c1b !important ;
+}
+body.light-mode .css-1160xiw-MuiPaper-root-MuiDrawer-paper {
+    background-color: white !important;
+}
+body.light-mode .css-1l8j5k8 {
+    background-color: white !important ;
+}
+
+.root {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+.toolbar {
+    height: 70px;
+}
+.content {
+    flex-grow: 1;
+    padding: 2em;
+    width: 100%;
+}
+::-webkit-scrollbar {
+    width: 7px;
+}
+::-webkit-scrollbar-track {
+    background-color: #cfcfcf;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #a5a5a5;
+}

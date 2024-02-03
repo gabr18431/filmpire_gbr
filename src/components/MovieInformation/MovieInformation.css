@@ -1,0 +1,58 @@
+.container-space-around {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0 !important;
+}
+
+.poster {
+    border-radius: 20px;
+    box-shadow: 0.5em 1em 1em rgba(0, 0, 0, 0.6);
+    width: 80%;
+}
+
+.container-space-around .genres-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 10px 0 !important;
+}
+
+.container-space-around .links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cast-image {
+    width: 100%;
+    max-width: 7em;
+    height: 8em;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.text-over {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 78.5px;
+    white-space: nowrap;
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video {
+    width: 50%;
+    height: 50%;
+}

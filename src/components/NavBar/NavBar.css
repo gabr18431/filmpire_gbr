@@ -1,0 +1,34 @@
+.Toolbar {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.menuButton {
+    margin-right: var(--space);
+}
+.linkButton:hover {
+    color: white !important;
+    text-decoration: none;
+}
+
+.drawer-paper .css-12i7wg6-MuiPaper-root-MuiDrawer-paper {
+    width: var(--drawer-width);
+    background-color: inherit;
+}
+
+body.dark-mode .header {
+    backdrop-filter: blur(3.5px) !important;
+    -webkit-backdrop-filter: blur(3.5px) !important;
+}
+body.dark-mode .css-1l8j5k8 {
+    background-color: #020c1b !important;
+}
+body.light-mode .css-1l8j5k8 {
+    background-color: white !important;
+}
+body.dark-mode .css-1ab2xsx {
+    background-color: #020c1b !important;
+}
+body.light-mode .css-1ab2xsx {
+    background-color: white !important;
+}
